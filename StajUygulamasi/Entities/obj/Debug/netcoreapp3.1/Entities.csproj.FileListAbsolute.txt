@@ -1,0 +1,9 @@
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\HP 840 G3\Source\Repos\StajUygulamasi\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache

@@ -1,0 +1,143 @@
+#mapid {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing:border-box;
+}
+strong {
+    color: #e84118;
+}
+
+.search-box {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    z-index: 400;
+}
+
+ .search-box:hover > .search-txt {
+        width: 240px;
+        padding: 0 6px;
+    }
+
+.search-txt:focus {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.search-btn:focus {
+    outline: none;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+h3 {
+    margin: 10px 0;
+    border-left: 5px solid #e74c3c;
+    padding-left: 3px;
+    font-size: 1.4vw;
+}
+
+.container {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 100px;
+    left: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6%;
+    background-color: #2f3640;
+    color: white;
+    z-index: 400;
+}
+
+ .container .check_group {
+        margin: 8px;
+        padding: 8px 28px;
+    }
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    position: relative;
+    
+}
+label:hover {
+    cursor:pointer;
+}
+
+    label::before {
+        content: "";
+        background: url("../content/img/check-circle.svg");
+        background-position: center;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: -44px;
+        top: -8px;
+        transform: scale(0) rotateZ(180deg);
+        transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+      
+    }
+  
+input[type="checkbox"]:checked + label::before {
+    transform: scale(1) rotateZ(0deg);
+}
+
+label::after {
+    content: "";
+    border: 2px solid #27ae60;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -42px;
+    top: -6px;
+    border-radius: 50%;
+}
+
+

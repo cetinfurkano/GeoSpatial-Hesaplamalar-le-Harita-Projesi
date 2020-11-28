@@ -1,0 +1,1 @@
+Proje çalıştırılmadan önce veritabanı import edilmelidir.
