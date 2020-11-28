@@ -1,1 +1,2 @@
 Proje çalıştırılmadan önce veritabanı import edilmelidir.
+Veritabanı olarak MongoDB kullanılmıştır.
